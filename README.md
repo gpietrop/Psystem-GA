@@ -15,7 +15,20 @@ automatic synthesis of P systems.
 To run the code, enter the following command:
 
 ```bash
-python3 experiments.py --problem --size --number_run conf.json --prefix 
+python3 experiments.py --problem --size --number_run==1 --conf_file==conf.json --prefix=='out' 
 ```
 where the inputs arguments stands for: 
-* `--problem`
+* `--problem` is the benchmark considered (that can be: _send-in_, _send-out_, _assignment_ and _tm_)
+* `--size` is the size of the problem considered (in this paper have been considered size: 2, 3, 4 and 5)
+* `--size` is the number of run performed for the experiment considered (in this paper 30 run has been performed for each experiment)
+* `--conf_file` is the .json configuration file containing the values of the hyperparameters:
+  * `max_lhs`: maximum left-hand side dimension 
+  * `max_rhs`: maximum right-hand side dimension
+  * `min_ruleset_size`: miminum dimension for the ruleset
+  * `max_ruleset_size`: maximum dimension for the ruleset
+  * `max_mutation`: maximum number of mutation allowed
+  * `mu`: population size
+  * `lmbd`: number of offsprings
+  * `generations`: number of generations
+  
+* `--prefix` is the name of the .csv file where results are saved 
