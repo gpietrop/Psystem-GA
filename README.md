@@ -18,5 +18,4 @@ To run the code, enter the following command:
 python3 experiments.py --problem --size --number_run conf.json --prefix 
 ```
 where the inputs arguments stands for: 
-* ```python
---problem ```
+* `--problem`
