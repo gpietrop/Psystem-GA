@@ -12,6 +12,12 @@ automatic synthesis of P systems.
 
 ## Instructions
 
+Code runs with python 3.8.5 on Ubuntu 20.04, after installing the following requirements:  
+
+```bash
+pip install -r requirements.txt 
+```
+
 To run the code, enter the following command:
 
 ```bash
@@ -32,3 +38,10 @@ where the inputs arguments stands for:
   * `generations`: number of generations
   
 * `--prefix` is the name of the .csv file where results are saved 
+
+The code to reproduce the plot of the paper is contained in the folder `plot`, it is sufficient to run:
+```bash
+python3 Fitness.py 
+```
+
+
