@@ -46,4 +46,7 @@ python3 Fitness.py
 
 Example of the plot are:
 ![send-in 2](/img/send-in-2-fitness-subplot_comparison.png)
+![send-in 3](/img/send-in-3-fitness-subplot_comparison.png)
+![send-in 4](/img/send-in-4-fitness-subplot_comparison.png)
+![send-in 5](/img/send-in-5-fitness-subplot_comparison.png)
 
