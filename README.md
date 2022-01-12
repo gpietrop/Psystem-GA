@@ -47,5 +47,5 @@ For example, for the __send-in__ problem, the results obtained with different hy
 
 
 
-<img src="/img/send-in-2-fitness-subplot_comparison.png" width="200" height="200"> <img src="/img/send-in-3-fitness-subplot_comparison.png" width="200" height="200">
-<img src="/img/send-in-4-fitness-subplot_comparison.png" width="200" height="200"> <img src="/img/send-in-5-fitness-subplot_comparison.png" width="200" height="200">
+<img src="/img/send-in-2-fitness-subplot_comparison.png" width="250" height="200"> <img src="/img/send-in-3-fitness-subplot_comparison.png" width="250" height="200">
+<img src="/img/send-in-4-fitness-subplot_comparison.png" width="250" height="200"> <img src="/img/send-in-5-fitness-subplot_comparison.png" width="250" height="200">
