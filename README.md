@@ -43,7 +43,7 @@ The code to reproduce the plot of the paper is contained in the folder `plot`, i
 ```bash
 python3 Fitness.py 
 ```
-For example, for the send-in problem, the results obtained with different hyperparameters setting are plotted as: 
+For example, for the __send-in__ problem, the results obtained with different hyperparameters setting are plotted as: 
 
 
 
