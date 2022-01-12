@@ -43,7 +43,5 @@ The code to reproduce the plot of the paper is contained in the folder `plot`, i
 ```bash
 python3 Fitness.py 
 ```
-<img src="/img/send-in-2-fitness-subplot_comparison.png" width="100" height="100">
-<img src="/img/send-in-3-fitness-subplot_comparison.png" width="100" height="100">
-<img src="/img/send-in-4-fitness-subplot_comparison.png" width="100" height="100">
-<img src="/img/send-in-5-fitness-subplot_comparison.png" width="100" height="100">
+<img src="/img/send-in-2-fitness-subplot_comparison.png" width="200" height="200"> <img src="/img/send-in-3-fitness-subplot_comparison.png" width="200" height="200">
+<img src="/img/send-in-4-fitness-subplot_comparison.png" width="100" height="100"> <img src="/img/send-in-5-fitness-subplot_comparison.png" width="200" height="200">
