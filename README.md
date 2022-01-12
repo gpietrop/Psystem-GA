@@ -44,4 +44,6 @@ The code to reproduce the plot of the paper is contained in the folder `plot`, i
 python3 Fitness.py 
 ```
 
+Example of the plot are:
+![send-in 2](/img/send-in-2-fitness-subplot_comparison.png)
 
