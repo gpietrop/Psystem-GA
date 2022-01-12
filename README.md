@@ -44,5 +44,8 @@ The code to reproduce the plot of the paper is contained in the folder `plot`, i
 python3 Fitness.py 
 ```
 For example, for the send-in problem, the results obtained with different hyperparameters setting are plotted as: 
+
+
+
 <img src="/img/send-in-2-fitness-subplot_comparison.png" width="200" height="200"> <img src="/img/send-in-3-fitness-subplot_comparison.png" width="200" height="200">
 <img src="/img/send-in-4-fitness-subplot_comparison.png" width="200" height="200"> <img src="/img/send-in-5-fitness-subplot_comparison.png" width="200" height="200">
