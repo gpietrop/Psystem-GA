@@ -31,9 +31,9 @@ where the inputs arguments stands for:
   * `max_lhs`: maximum left-hand side dimension 
   * `max_rhs`: maximum right-hand side dimension
   * `min_ruleset_size`: miminum dimension for the ruleset
-  * `max_ruleset_size` ($m$): maximum dimension for the ruleset
+  * `max_ruleset_size`: maximum dimension for the ruleset
   * `max_mutation`: maximum number of mutation allowed
-  * `mu` ($\mu$): population size
+  * `mu` : population size
   * `lmbd`: number of offsprings
   * `generations`: number of generations
   
@@ -53,10 +53,6 @@ To get __Figure 1__ is sufficent to run:
 ```bash
 python3 Fitness.py --problem --mu --max_ruleset_size
 ```
-For example, for 
-```math
-\mu = 1
-``` 
-and $m=20$ we obtain:
+For example, for mu=1 and m=20 we obtain:
 <img src="/img/send-in-bp.png" width="250" height="200"> <img src="/img/send-out-bp.png" width="250" height="200">
 <img src="/img/assignment-bp.png" width="250" height="200"> <img src="/img/tm-bp.png" width="250" height="200">
