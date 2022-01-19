@@ -39,13 +39,14 @@ where the inputs arguments stands for:
   
 * `--prefix` is the name of the .csv file where results are saved 
 
-The code to reproduce the plot of the paper is contained in the folder `plot`, it is sufficient to run:
+The codes that reproduce the plots of the paper are contained in the folder `plot`.
+To get __Figure 2-5__ it is sufficient to run:
 ```bash
-python3 Fitness.py 
+python3 Fitness.py --problem
 ```
 For example, for the __send-in__ problem, the results obtained with different hyperparameters setting are plotted as: 
 
 
-
 <img src="/img/send-in-2-fitness-subplot_comparison.png" width="250" height="200"> <img src="/img/send-in-3-fitness-subplot_comparison.png" width="250" height="200">
 <img src="/img/send-in-4-fitness-subplot_comparison.png" width="250" height="200"> <img src="/img/send-in-5-fitness-subplot_comparison.png" width="250" height="200">
+
