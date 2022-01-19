@@ -42,7 +42,7 @@ where the inputs arguments stands for:
 The codes that reproduce the plots of the paper are contained in the folder `plot`.
 To get __Figure 2-5__ it is sufficient to run:
 ```bash
-python3 Fitness.py --problem
+python3 Fitness.py
 ```
 For example, for the __send-in__ problem, the results obtained with different hyperparameters setting are plotted as: 
 
