@@ -31,9 +31,9 @@ where the inputs arguments stands for:
   * `max_lhs`: maximum left-hand side dimension 
   * `max_rhs`: maximum right-hand side dimension
   * `min_ruleset_size`: miminum dimension for the ruleset
-  * `max_ruleset_size`: maximum dimension for the ruleset
+  * `max_ruleset_size` ($m$): maximum dimension for the ruleset
   * `max_mutation`: maximum number of mutation allowed
-  * `mu`: population size
+  * `mu` ($\mu$): population size
   * `lmbd`: number of offsprings
   * `generations`: number of generations
   
@@ -46,7 +46,13 @@ python3 Fitness.py --problem
 ```
 For example, for the __send-in__ problem, the results obtained with different hyperparameters setting are plotted as: 
 
-
 <img src="/img/send-in-2-fitness-subplot_comparison.png" width="250" height="200"> <img src="/img/send-in-3-fitness-subplot_comparison.png" width="250" height="200">
 <img src="/img/send-in-4-fitness-subplot_comparison.png" width="250" height="200"> <img src="/img/send-in-5-fitness-subplot_comparison.png" width="250" height="200">
 
+To get __Figure 1__ is sufficent to run: 
+```bash
+python3 Fitness.py --problem --mu --max_ruleset_size
+```
+For example, for $\mu=1$ and $m=20$ we obtain:
+<img src="/img/send-in-bp.png" width="250" height="200"> <img src="/img/send-out-bp.png" width="250" height="200">
+<img src="/img/assignment-bp.png" width="250" height="200"> <img src="/img/tm-bp.png" width="250" height="200">
